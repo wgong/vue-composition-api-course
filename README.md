@@ -1,8 +1,50 @@
-## Vue 3: Composition API (with Pinia & Vite)
-All source code files from the "Vue 3: Composition API (with Pinia & Vite)" course on Udemy.
+# vue-composition-api-noteballs
 
-### How to use this repository
+This template should help get you started developing with Vue 3 in Vite.
 
-Each Module in the course has it's own branch in the repository. To see the code for a specific lesson, just select that branch from the branch drop-down (top-left). E.g. The module-6 branch contains the final code for Module 6 in the course.
+## Recommended IDE Setup
 
-**Course link:** [Vue 3: Composition API (with Pinia & Vite)](https://dannys.link/compositionapi)
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+
+## setup Vue+Vite
+### https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/
+sudo apt update
+sudo apt install nodejs npm
+
+### Install from source
+https://github.com/nodesource/distributions#debinstall
+```
+# Using Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+node --version
+> v18.7.0
+npm --version
+> 8.15.0
+```
+
+$ npm create vite@latest
+
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
