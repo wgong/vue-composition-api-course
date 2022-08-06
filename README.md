@@ -7,25 +7,32 @@ This template should help get you started developing with Vue 3 in Vite.
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
 
 ## setup Vue+Vite
+
 ### https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/
+```
 sudo apt update
 sudo apt install nodejs npm
+```
+not working for me on Ubuntu
 
-### Install from source
+### Install from source on Ubuntu
 https://github.com/nodesource/distributions#debinstall
 ```
-# Using Ubuntu
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
-node --version
-> v18.7.0
-npm --version
-> 8.15.0
+node --version  # v18.7.0
+npm --version   # 8.15.0
+
+npm create vite@latest
+cd noteball
+
+cp -Rf ~/projects/vuejs/noteballs/vue-composition-api-course-module-18/vue-composition-api-noteballs/* .
+
+npm install
+npm run dev
+
 ```
-
-$ npm create vite@latest
-
 
 ## Customize configuration
 
